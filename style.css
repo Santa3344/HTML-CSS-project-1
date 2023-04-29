@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    font-family: 'Inter';
+}
+
+.banner{
+    background: #FFCD9E;
+    display: flex;
+}
+.selection-left{
+    margin: top:50px;
+    margin-left:130px;
+}
+.header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #282828
+}
+.description{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: #484848;  
+}
+.tag{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #282828;
+}
+input{
+    height: 32px;
+    background: #FFCD9E;
+    border-radius: 10px;
+    padding-left: 20px;
+    width: 15;
+    margin-top: 12px;
+    margin-right: 12px;
+    border: 3px;
+}
+button{
+    background: #282828;
+    border: none;
+    border-radius: 8px;
+    color:#FFF;
+    font-weight: 800;
+
+}
+.bottom{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFF;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.footer{
+    display: flex;
+    background: #282828;
+    color: #FFF;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.footer{
+    list-style: none;
+}
+.footer ul li{
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.footer-list2{
+    text-align: right;
+}
+.logo-list{
+    height: 16px;
+}
